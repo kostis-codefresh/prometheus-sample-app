@@ -29,5 +29,5 @@ Run:
 
 1. Login into Graphana. Default user/password for Graphana is admin/admin
 1. Add a datasource for type Prometheus at address http://localhost:9090 and auth type "Browser" 
-1. Import [graphana/graphana-dashboard.json] as a premade dashboard
+1. Import [graphana/graphana-dashboard.json](graphana/graphana-dashboard.json) as a premade dashboard
 
