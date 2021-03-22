@@ -1,6 +1,6 @@
 # Example Go app that exposes Prometheus metrics
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/kostis-codefresh/humanitec-notify-step)](https://goreportcard.com/report/github.com/kostis-codefresh/humanitec-notify-step)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kostis-codefresh/prometheus-sample-app)](https://goreportcard.com/report/github.com/kostis-codefresh/prometheus-sample-app)
 
 
 Original code modified from https://gabrieltanner.org/blog/collecting-prometheus-metrics-in-golang

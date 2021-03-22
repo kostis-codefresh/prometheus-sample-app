@@ -17,7 +17,7 @@ type responseWriter struct {
 	statusCode int
 }
 
-func NewResponseWriter(w http.ResponseWriter) *responseWriter {
+func newResponseWriter(w http.ResponseWriter) *responseWriter {
 	return &responseWriter{w, http.StatusOK}
 }
 
@@ -53,7 +53,7 @@ func prometheusMiddleware(next http.Handler) http.Handler {
 		path, _ := route.GetPathTemplate()
 
 		timer := prometheus.NewTimer(httpDuration.WithLabelValues(path))
-		rw := NewResponseWriter(w)
+		rw := newResponseWriter(w)
 		next.ServeHTTP(rw, r)
 
 		statusCode := rw.statusCode
