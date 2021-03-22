@@ -2,6 +2,7 @@
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/kostis-codefresh/prometheus-sample-app)](https://goreportcard.com/report/github.com/kostis-codefresh/prometheus-sample-app)
 
+![Graphana Dashboard](graphana-dashboard.png)
 
 Original code modified from https://gabrieltanner.org/blog/collecting-prometheus-metrics-in-golang
 
@@ -29,3 +30,4 @@ Run:
 1. Login into Graphana. Default user/password for Graphana is admin/admin
 1. Add a datasource for type Prometheus at address http://localhost:9090 and auth type "Browser" 
 1. Import [graphana/graphana-dashboard.json] as a premade dashboard
+
